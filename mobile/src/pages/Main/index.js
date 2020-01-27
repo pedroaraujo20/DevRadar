@@ -18,7 +18,7 @@ export default function Main({ navigation }) {
       if (granted) {
         const { coords } = await getCurrentPositionAsync({
           enableHighAccuracy: true,
-        });
+        }); 
 
         const { latitude, longitude } = coords;
 
